@@ -1,0 +1,71 @@
+
+@media screen and (max-width: 767px){
+	
+	//hago aparecer el menu hamburguesa
+	.menu-mobile{
+		display: block;
+	}
+	//genero un margen en el h2 
+	main {
+        section{
+            h2{
+                margin-top: 100px;
+            }
+        }
+	}
+
+	//ajuste del logo
+	.logoimg{
+		height: 70px;
+		margin: 20px 0px 20px;
+	}
+
+    //genero un espacio en el menu de arriba para que no quede pegado a la derecha
+	.navegacion {
+        div{ 
+            ul{ 
+                li{ 
+                    a{
+		                margin-right: 10px;
+                    }
+                }
+            }
+        }
+    } 
+   	
+	//oculto el nav de desktop para que solo quede el menu hamburguesa
+	body{ 
+        header {
+            nav{ 
+                .navegacionpage{
+		            display: none;
+    	        }
+            }
+        }
+    }
+
+	body{
+        header{
+            nav{
+                section{
+                    .src{
+		                width: 250px; //acomodo largo del buscador
+	                }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:480px){
+    .descripcion{
+        display: none;
+
+    }
+    .seccion_ayuda{
+        overflow: hidden;
+    }
+   
+    
+
+}

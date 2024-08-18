@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+}
+
+body {
+  background-color: #292C3E;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+body main section h2 {
+  font-size: 25px;
+  text-align: start;
+  margin: 200px 0 0 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.texto_fuente {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+p {
+  margin-top: 15px;
+  color: whitesmoke;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 0px 10px;
+  padding-left: 0px;
+}
+
+a {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #51587c;
+}
+
+.logoimg {
+  margin-left: 40px;
+  height: 80px;
+}
+
+.ingreso {
+  display: flex;
+  align-items: center;
+}
+
+.ingreso img {
+  height: 35px;
+}
+
+main picture a img {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+}
+
+.navegacion {
+  background-color: #141622;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion div ul li a {
+  margin-right: 70px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.navegacionpage {
+  background-color: #1C1F30;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.navegacionpage ul {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.navegacionpage ul li {
+  margin: 15px 30px 15px 0px;
+}
+
+.src {
+  font-size: 18px;
+  width: 500px;
+  background-color: whitesmoke;
+  border: 4px solid;
+  border-color: #3b4058; /* color del borde*/
+  padding: 10px 0px 10px 15px; /* genero un espacio dentro del buscador para que no quede muy angosto */
+  box-shadow: 0 0 5px rgba(109, 207, 245, 0.5019607843); /*le agrego un efecto de sombreado al buscador*/
+  color: #24252b;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.fondo-menu {
+  background-color: #1C1F30;
+}
+
+.hover-menu:hover {
+  background-color: #414661;
+}
+
+.texto-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+main div img {
+  width: 100%;
+}
+
+.producto {
+  background-color: rgba(30, 60, 71, 0.5019607843);
+  border: solid 1px black;
+  display: inline-block;
+  width: 200px;
+  height: 320px;
+  box-shadow: 0px 1px 40px 0px rgba(109, 207, 245, 0.5019607843);
+  padding: 20px;
+  margin: 50px 50px;
+  overflow: hidden;
+  text-align: center;
+}
+
+iframe {
+  margin: 30px 0 0 20px;
+}
+
+.ubicacion-sobrenosotros {
+  display: inline;
+}
+
+.font-sobrenosotros {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 30px 0 0 20px;
+}
+
+.imagenes-de-presentacion {
+  margin: 10px 30px;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: 50% 50%;
+  align-content: center;
+  gap: 10px;
+}
+
+.imagenes-de-presentacion img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-soporte {
+  background-color: rgba(30, 60, 71, 0.5019607843);
+  display: inline-block; /*creo "dos cartas" una informativa y otra de datos*/
+  border: solid 1px black; /*genero un borde*/
+  box-shadow: 0px 1px 40px 0px rgba(109, 207, 245, 0.5019607843); /*sombreado*/
+  padding: 20px; /*crea un espacio en la parte superior del formulario*/
+  margin: 20 -3; /*pega las 2 secciones dando el efecto de que son 1*/
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.form1 {
+  margin-top: 50px; /*genero un espacio dentro del div*/
+}
+
+main section div form {
+  margin-top: 50px;
+}
+
+label {
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+input {
+  padding: 10px 50px 10px 15px;
+  background: #1C1F30;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+select {
+  padding: 10px 220px 10px 15px;
+  background: #1C1F30;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.label-soporte {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.soporte {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #1C1F30;
+}
+
+footer p {
+  margin: 20px;
+  color: gray;
+}
+
+body main div h3 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+body main div h5 {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+body main div p {
+  margin: 0px 0px 0px 0px;
+}
+
+.precio {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.descuento {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.card_productos {
+  background: #1C1F30;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.ofertas {
+  display: flex;
+}
+
+.productos {
+  border-right: 1px solid #161825;
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+body main .card_productos img {
+  width: 200px;
+  height: 170px;
+}
+
+.seccion_ayuda {
+  background: #1C1F30;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-mobile {
+    display: block;
+  }
+  main section h2 {
+    margin-top: 100px;
+  }
+  .logoimg {
+    height: 70px;
+    margin: 20px 0px 20px;
+  }
+  .navegacion div ul li a {
+    margin-right: 10px;
+  }
+  body header nav .navegacionpage {
+    display: none;
+  }
+  body header nav section .src {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 480px) {
+  .descripcion {
+    display: none;
+  }
+  .seccion_ayuda {
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

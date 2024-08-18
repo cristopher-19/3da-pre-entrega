@@ -1,0 +1,15 @@
+@mixin fuente{
+    font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color:whitesmoke
+}
+
+@mixin letra{
+    font-weight: bold;
+	color:whitesmoke
+}
+
+@mixin tamaño($alto, $ancho){
+    width: $ancho;
+    height: $alto;
+}
