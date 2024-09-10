@@ -49,13 +49,15 @@
             nav{
                 section{
                     .src{
-		                width: 250px; //acomodo largo del buscador
+		                width: 200px; //acomodo largo del buscador
 	                }
                 }
             }
         }
     }
 }
+
+    
 
 @media screen and (max-width:767px) and (min-width:480px){
     .descripcion{
@@ -65,7 +67,31 @@
     .seccion_ayuda{
         overflow: hidden;
     }
-   
+    body{
+        header{
+            nav{
+                section{
+                    .src{
+		                width: 150px; //acomodo largo del buscador
+	                }
+                }
+            }
+        }
+    }
     
 
+}
+
+@media screen and (max-width:479px) and (min-width:375px){
+    body{
+        header{
+            nav{
+                section{
+                    .src{
+		                width: 50px; //acomodo largo del buscador
+	                }
+                }
+            }
+        }
+    }   
 }

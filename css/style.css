@@ -83,7 +83,6 @@ main picture a img {
 }
 
 .navegacion div ul li a {
-  margin-right: 70px;
   border: 2px solid whitesmoke;
   border-radius: 5px;
   padding: 5px 5px 5px 5px;
@@ -106,7 +105,7 @@ main picture a img {
 
 .src {
   font-size: 18px;
-  width: 500px;
+  width: 400px;
   background-color: whitesmoke;
   border: 4px solid;
   border-color: #3b4058; /* color del borde*/
@@ -328,7 +327,7 @@ body main .card_productos img {
     display: none;
   }
   body header nav section .src {
-    width: 250px;
+    width: 200px;
   }
 }
 @media screen and (max-width: 767px) and (min-width: 480px) {
@@ -337,6 +336,14 @@ body main .card_productos img {
   }
   .seccion_ayuda {
     overflow: hidden;
+  }
+  body header nav section .src {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 479px) and (min-width: 375px) {
+  body header nav section .src {
+    width: 50px;
   }
 }
 
